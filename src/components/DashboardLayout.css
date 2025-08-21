@@ -1,0 +1,129 @@
+/* ===== Dashboard Layout General ===== */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 240px;
+  background: #2c3e50; /* dark navy */
+  color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.role-badge {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  background: #3498db;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* Menu List */
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin: 10px 0;
+}
+
+.menu-list a {
+  display: block;
+  padding: 10px 20px;
+  color: #bdc3c7;
+  text-decoration: none;
+  transition: all 0.2s;
+  border-left: 4px solid transparent;
+}
+
+.menu-list a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.menu-list .active-link {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-weight: 600;
+  border-left: 4px solid #3498db;
+}
+
+/* ===== Main Content ===== */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Topbar */
+.topbar {
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.welcome {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #c0392b !important;
+  border-color: #c0392b !important;
+}
+
+/* ===== Content Area ===== */
+.content-wrapper {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .topbar {
+    padding: 0 10px;
+  }
+
+  .content-wrapper {
+    padding: 15px;
+  }
+}

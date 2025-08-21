@@ -1,16 +1,21 @@
-import { Container } from "react-bootstrap";
+import React from "react";
+import DashboardLayout from "../components/DashboardLayout";
 
-
-import React from 'react'
+const studentMenu = [
+  { label: "Dashboard", path: "/student/dashboard" },
+  { label: "My Courses", path: "/student/courses" },
+  { label: "Assignments", path: "/student/assignments" },
+  { label: "Grades", path: "/student/grades" },
+  { label: "Profile", path: "/student/profile" },
+];
 
 const StudentDashboard = () => {
   return (
-     <Container className="mt-5">
+    <DashboardLayout role="Student" menuItems={studentMenu}>
       <h2>Student Dashboard</h2>
-      <p>Welcome Student! View timetable, results, and announcements here.</p>
-    </Container>
-  )
-}
+      <p>Access your courses, assignments, grades, and profile here.</p>
+    </DashboardLayout>
+  );
+};
 
 export default StudentDashboard;
-

@@ -1,16 +1,21 @@
-import { Container } from "react-bootstrap";
+import React from "react";
+import DashboardLayout from "../components/DashboardLayout";
 
-import React from 'react'
+
+const teacherMenu = [
+  { label: "Dashboard", path: "/teacher/dashboard" },
+  { label: "My Classes", path: "/teacher/classes" },
+  { label: "Assignments", path: "/teacher/assignments" },
+  { label: "Grades", path: "/teacher/grades" },
+];
 
 const TeacherDashboard = () => {
   return (
-    <Container className="mt-5">
+    <DashboardLayout role="Teacher" menuItems={teacherMenu}>
       <h2>Teacher Dashboard</h2>
-      <p>Welcome Teacher! Take attendance and manage classes here.</p>
-    </Container>
+      <p>Manage classes, assignments, and student grades here.</p>
+    </DashboardLayout>
   );
-}
+};
 
 export default TeacherDashboard;
-
-
