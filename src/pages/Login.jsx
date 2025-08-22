@@ -17,6 +17,9 @@ const Login = () => {
         case "teacher":
           navigate("/teacher", { replace: true });
           break;
+        case "super-admin":
+          navigate("/super-admin", { replace: true });
+          break;
         case "student":
           navigate("/student", { replace: true });
           break;
@@ -45,6 +48,9 @@ const Login = () => {
       case "admin":
         navigate("/admin/dashboard", { replace: true });
         break;
+      case "super-admin":
+        navigate("/super-admin/dashboard", { replace: true });
+        break;
       case "teacher":
         navigate("/teacher/dashboard", { replace: true });
         break;
@@ -58,23 +64,7 @@ const Login = () => {
         navigate("/login", { replace: true });
     }
   };
-  //   switch (role) {
-  //     case "admin":
-  //       navigate("/admin");
-  //       break;
-  //     case "teacher":
-  //       navigate("/teacher");
-  //       break;
-  //     case "student":
-  //       navigate("/student");
-  //       break;
-  //     case "parent":
-  //       navigate("/parent");
-  //       break;
-  //     default:
-  //       navigate("/login");
-  //   }
-  // };
+ 
 
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
@@ -91,6 +81,7 @@ const Login = () => {
                 >
                   <option value="">-- Select Role --</option> {/* ✅ placeholder */}
                   <option value="admin">Admin</option>
+                  <option value="super-admin">Super-Admin</option>
                   <option value="teacher">Teacher</option>
                   <option value="student">Student</option>
                   <option value="parent">Parent</option>
