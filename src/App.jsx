@@ -22,10 +22,9 @@ import UpdateAdmin from "./pages/UpdateAdmin";
 import DeleteAdmin from "./pages/DeleteAdmin";
 
 // Super-Admin Extra Features
-import SystemSettings from "./pages/SystemSettings";
-import Reports from "./pages/Reports";
-import ActivityLogs from "./pages/ActivityLogs";
-import SupportTickets from "./pages/SupportTickets";
+import SystemSettings from "./pages/SuperAdmin/SystemSettings";
+import Reports from "./pages/SuperAdmin/Reports";
+import ActivityLogs from "./pages/SuperAdmin/ActivityLogs";
 
 // Admin Sub-Pages
 import ManageUsers from "./pages/Admin/ManageUsers";
@@ -256,15 +255,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-        <Route
-          path="/super-admin/support"
-          element={
-            <ProtectedRoute expectedRole="super-admin">
-              <SupportTickets />
-            </ProtectedRoute>
-          }
-        />
-
+       
         {/* === Admin Dashboard === */}
         <Route
           path="/admin"

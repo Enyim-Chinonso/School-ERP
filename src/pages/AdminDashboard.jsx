@@ -91,18 +91,38 @@ const AdminDashboard = () => {
             </thead>
             <tbody>
               <tr>
-                <td>Enyim Chinonso</td>
+                <td>Abhishek Pandey</td>
+                <td>Updated profile</td>
+                <td>Aug 24, 2025</td>
+              </tr>
+
+              <tr>
+                <td>Priyanshu Patel</td>
+                <td>Updated profile</td>
+                <td>Aug 23, 2025</td>
+              </tr>
+
+              <tr>
+                <td>Aritra Chakraborty</td>
+                <td>Updated profile</td>
+                <td>Aug 22, 2025</td>
+              </tr>
+
+              <tr>
+                <td>Anshika Aggarwal</td>
                 <td>Updated profile</td>
                 <td>Aug 21, 2025</td>
               </tr>
+
+              <tr>
+                <td>Arpit Ranjan</td>
+                <td>Generated report</td>
+                <td>Aug 20, 2025</td>
+              </tr>
+              
               <tr>
                 <td>Enyim Chinonso</td>
                 <td>Paid fees</td>
-                <td>Aug 20, 2025</td>
-              </tr>
-              <tr>
-                <td>Admin</td>
-                <td>Generated report</td>
                 <td>Aug 19, 2025</td>
               </tr>
             </tbody>

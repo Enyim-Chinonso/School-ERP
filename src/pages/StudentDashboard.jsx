@@ -24,7 +24,7 @@ const StudentDashboard = () => {
             <div className="card text-center shadow-sm">
               <div className="card-body">
                 <h5 className="card-title">GPA</h5>
-                <p className="display-6">3.8</p>
+                <p className="display-6">4.1</p>
               </div>
             </div>
           </div>
@@ -66,10 +66,18 @@ const StudentDashboard = () => {
                   <td>09:00 - 10:30</td>
                   <td>Room 101</td>
                 </tr>
+
                 <tr>
                   <td>Tuesday</td>
                   <td>Physics</td>
                   <td>11:00 - 12:30</td>
+                  <td>Room 202</td>
+                </tr>
+
+                <tr>
+                  <td>Wednesday</td>
+                  <td>Computer Science</td>
+                  <td>09:00 - 10:30</td>
                   <td>Room 202</td>
                 </tr>
               </tbody>
@@ -103,12 +111,19 @@ const StudentDashboard = () => {
                 <tr>
                   <td>Mathematics</td>
                   <td>A</td>
-                  <td>3</td>
+                  <td>5</td>
                 </tr>
+
                 <tr>
                   <td>Physics</td>
-                  <td>B+</td>
+                  <td>B</td>
                   <td>4</td>
+                </tr>
+
+                <tr>
+                  <td>Computer Science</td>
+                  <td>A</td>
+                  <td>5</td>
                 </tr>
               </tbody>
             </table>

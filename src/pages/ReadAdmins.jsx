@@ -1,27 +1,3 @@
-// import React from "react";
-// import D from "../pages/";
-// import ReadAdmins from "../pages/"
-
-// const superAdminMenu = [
-//   { label: "Dashboard", path: "/super-admin" },
-//   { label: "Create Admin", path: "/super-admin/create" },
-//   { label: "View Admins", path: "/super-admin/read" },
-//   { label: "Update Admin", path: "/super-admin/update" },
-//   { label: "Delete Admin", path: "/super-admin/delete" },
-// ];
-
-// const ReadAdmins = () => {
-//   return (
-//     <DashboardLayout role="Super Admin" menuItems={superAdminMenu}>
-//       <h2>View Admins</h2>
-//       <p>This is a placeholder page for listing all Admins.</p>
-//     </DashboardLayout>
-//   );
-// };
-
-// export default ReadAdmins;
-
-
 import React from "react";
 import DashboardLayout from "../components/DashboardLayout";
 
@@ -50,13 +26,32 @@ const ReadAdmins = () => {
           <tbody>
             <tr>
               <td>1</td>
-              <td>John Doe</td>
+              <td>Abhishek Pandey</td>
               <td>admin1@example.com</td>
             </tr>
+
             <tr>
               <td>2</td>
-              <td>Jane Smith</td>
+              <td>Aritra Chakraborty</td>
               <td>admin2@example.com</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Priyanshu Patel</td>
+              <td>admin3@example.com</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>Anshika Aggarwal</td>
+              <td>admin4@example.com</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>Arpit Ranjan</td>
+              <td>admin5@example.com</td>
             </tr>
           </tbody>
         </table>

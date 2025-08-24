@@ -26,7 +26,7 @@ const ManageUsers = () => {
         <tbody>
           <tr>
             <td>001</td>
-            <td>John Doe</td>
+            <td>Abhishek Pandey</td>
             <td>Teacher</td>
             <td>Active</td>
             <td>
@@ -34,9 +34,54 @@ const ManageUsers = () => {
               <button className="btn btn-sm btn-danger">Delete</button>
             </td>
           </tr>
+
           <tr>
             <td>002</td>
-            <td>Mary Jane</td>
+            <td>Aritra Chakraborty</td>
+            <td>Teacher</td>
+            <td>Active</td>
+            <td>
+              <button className="btn btn-sm btn-primary me-1">Edit</button>
+              <button className="btn btn-sm btn-danger">Delete</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>003</td>
+            <td>Anshika Aggarwal</td>
+            <td>Teacher</td>
+            <td>Active</td>
+            <td>
+              <button className="btn btn-sm btn-primary me-1">Edit</button>
+              <button className="btn btn-sm btn-danger">Delete</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>004</td>
+            <td>Priyanshu Patel</td>
+            <td>Teacher</td>
+            <td>Active</td>
+            <td>
+              <button className="btn btn-sm btn-primary me-1">Edit</button>
+              <button className="btn btn-sm btn-danger">Delete</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>005</td>
+            <td>Arpit Ranjan</td>
+            <td>Teacher</td>
+            <td>Active</td>
+            <td>
+              <button className="btn btn-sm btn-primary me-1">Edit</button>
+              <button className="btn btn-sm btn-danger">Delete</button>
+            </td>
+          </tr>
+
+          <tr>
+            <td>006</td>
+            <td>Riya Singh</td>
             <td>Student</td>
             <td>Active</td>
             <td>

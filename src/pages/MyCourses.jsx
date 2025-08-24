@@ -18,6 +18,7 @@ const MyCourses = () => {
     "Physics",
     "Computer science",
     "Biology",
+    "Chemistry",
   ];
 
   return (
