@@ -15,8 +15,14 @@ const Results = () => {
       <h2>Results</h2>
       <p>Check your children’s exam results:</p>
       <ul>
-        <li>Enyim Chinonso - Mathematics: A, English Literature: A</li>
-        <li>Enyim Chinonso - Mathematics: B, Computer Science: A</li>
+        <li>Subham Jha - Mathematics: A, English Literature: A</li> <br />
+        <li>Sachin Gupta - Physics: B, Computer Science: A</li> <br />
+        <li>Gulshan Anand - Mathematics: B, Computer Science: A</li> <br />
+        <li>Ankit Kumar - Chemistry: B, Computer Science: A</li> <br />
+        <li>Riya Singh - Mathematics: A, Computer Science: A</li> <br />
+        <li>Aditya - English Literature: B, Computer Science: A</li> <br />
+        <li>Saloni Kumari - English Literature: B, Computer Science: A</li> <br />
+        <li>Ankit Saini - Biology: B, Computer Science: A</li>
       </ul>
     </DashboardLayout>
   );

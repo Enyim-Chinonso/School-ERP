@@ -12,9 +12,9 @@ const teacherMenu = [
 
 const Messages = () => {
   const messages = [
-    { from: "Enyim Chinonso", subject: "Question about assignment", date: "2025-08-20" },
+    { from: "Saloni Kumari", subject: "Question about assignment", date: "2025-08-20" },
     { from: "Parent: Enyim Chinonso", subject: "Attendance inquiry", date: "2025-08-21" },
-    { from: "Enyim Chinonso", subject: "Exam schedule clarification", date: "2025-08-22" },
+    { from: "Gulshan Anand", subject: "Exam schedule clarification", date: "2025-08-22" },
   ];
 
   return (

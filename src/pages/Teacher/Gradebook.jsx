@@ -12,10 +12,10 @@ const teacherMenu = [
 
 const Gradebook = () => {
   const grades = [
-    { student: "Enyim Chinonso", course: "Mathematics", grade: "A" },
-    { student: "Enyim Chinonso", course: "Chemistry", grade: "B" },
-    { student: "Enyim Chinonso", course: "Physics", grade: "A" },
-    { student: "Enyim Chinonso", course: "Computer science", grade: "A" },
+    { student: "Subham Jha", course: "Mathematics", grade: "A" },
+    { student: "Ankit Kumar", course: "Chemistry", grade: "B" },
+    { student: "Sachin Gupta", course: "Physics", grade: "B" },
+    { student: "Aditya", course: "Computer science", grade: "A" },
   ];
 
   return (

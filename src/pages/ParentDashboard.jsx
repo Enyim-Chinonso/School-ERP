@@ -23,7 +23,7 @@ const ParentDashboard = () => {
             <div className="card text-center shadow-sm">
               <div className="card-body">
                 <h5 className="card-title">Children Enrolled</h5>
-                <p className="display-6">2</p>
+                <p className="display-6">10</p>
               </div>
             </div>
           </div>
@@ -60,16 +60,59 @@ const ParentDashboard = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Enyim Francess</td>
-                  <td>Grade 10</td>
+                  <td>Subham Jha</td>
+                  <td>200 Level</td>
                   <td>A</td>
                   <td><span className="badge bg-success">Excellent</span></td>
                 </tr>
+
                 <tr>
-                  <td>Enyim Franklin</td>
-                  <td>Grade 7</td>
+                  <td>Sachin Gupta</td>
+                  <td>200 Level</td>
                   <td>B</td>
                   <td><span className="badge bg-warning">Good</span></td>
+                </tr>
+
+                <tr>
+                  <td>Saloni Kumari</td>
+                  <td>100 Level</td>
+                  <td>c</td>
+                  <td><span className="badge bg-warning">Good</span></td>
+                </tr>
+
+                <tr>
+                  <td>Ankit Saini</td>
+                  <td>300 Level</td>
+                  <td>A</td>
+                  <td><span className="badge bg-success">Excellent</span></td>
+                </tr>
+
+                <tr>
+                  <td>Gulshan Anand</td>
+                  <td>400 Level</td>
+                  <td>B</td>
+                  <td><span className="badge bg-warning">Good</span></td>
+                </tr>
+
+                <tr>
+                  <td>Ankit Kumar</td>
+                  <td>200 Level</td>
+                  <td>B</td>
+                  <td><span className="badge bg-warning">Good</span></td>
+                </tr>
+
+                <tr>
+                  <td>Riya Singh</td>
+                  <td>400 Level</td>
+                  <td>C</td>
+                  <td><span className="badge bg-warning">Good</span></td>
+                </tr>
+
+                <tr>
+                  <td>Aditya</td>
+                  <td>300 Level</td>
+                  <td>A</td>
+                  <td><span className="badge bg-success">Excellent</span></td>
                 </tr>
               </tbody>
             </table>

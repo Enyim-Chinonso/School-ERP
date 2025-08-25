@@ -24,12 +24,31 @@ const Attendance = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Enyim Chinonso</td>
-            <td>140</td>
-            <td>5</td>
+            <td>Sachin Gupta</td>
+            <td>138</td>
+            <td>7</td>
           </tr>
+
           <tr>
-            <td>Enyim Chinonso</td>
+            <td>Saloni Kumari</td>
+            <td>138</td>
+            <td>7</td>
+          </tr>
+
+          <tr>
+            <td>Riya Singh</td>
+            <td>138</td>
+            <td>7</td>
+          </tr>
+
+          <tr>
+            <td>Ankit Saini</td>
+            <td>138</td>
+            <td>7</td>
+          </tr>
+
+          <tr>
+            <td>Subham Jha</td>
             <td>138</td>
             <td>7</td>
           </tr>
